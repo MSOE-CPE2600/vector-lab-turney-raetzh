@@ -20,5 +20,7 @@ int main()
         printf("%s", in);
     }
 
+    printf("Extra changes added!");
+
     return 0;
 }
