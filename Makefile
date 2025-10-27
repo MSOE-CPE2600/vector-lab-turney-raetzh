@@ -1,7 +1,7 @@
 CC=gcc
-CFLAGS=-c -Wall -lm
+CFLAGS=-c -Wall -lm -g
 LDFLAGS=
-SOURCES= main.c arraymgr.c calc.c
+SOURCES= main.c parser.c listmgr.c calc.c llist.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=out
 

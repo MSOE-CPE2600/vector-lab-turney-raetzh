@@ -9,6 +9,12 @@
 #include <stdio.h>
 #include <string.h>
 
-vector add(vector a, vector b);
+vector add(vector *a, vector *b);
 
-vector subtract(vector a, vector b);
+vector subtract(vector *a, vector *b);
+
+vector multiply(float a, vector *b);
+
+float dot(vector *a, vector *b);
+
+vector cross(vector *a, vector *b);

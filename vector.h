@@ -5,6 +5,9 @@
 * Date: Sept 30, 2025
 ********************************/
 
+#ifndef VECTOR_H
+#define VECTOR_H
+
 typedef struct vector
 {
     char name;
@@ -12,3 +15,5 @@ typedef struct vector
     float y;
     float z;
 } vector;
+
+#endif
